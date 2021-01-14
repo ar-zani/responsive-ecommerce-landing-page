@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ============================ */
+        /* PAGE CSS */
+/* ============================ */
+.red{
+    background-color: palevioletred;
+}
+.green{
+    background-color: greenyellow;
+}
+.blue{
+    background-color: blueviolet;
+}
+.txt-orange{
+    color: #FABE4C;
+}
+/* ============================ */
+        /* COMMON CSS*/
+/* ============================ */
+h1{
+    color: #363958;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+h5{
+    color: #363958;
+    font-size: 25px;
+}
+h6{
+    color: #363958;
+}
+p{
+    color: #3E3E3E;
+}
+.price{
+    color: #FABE4C;
+    font-size: 36px;
+    font-weight: 900;
+}
+.custom-btn{
+    background-color: #8CA723;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 18px 33px;
+}
+.custom-btn img{
+    width: 25px;
+    margin: 0 5px;
+}
+header{
+    background-color: #FFFBF0;
+    color: #3C3C3C;
+    font-size: 18px;
+}
+
+
+
+/* ============================ */
+          /*FASHION*/
+/* ============================ */
+.woman-card{
+    border-radius: 20px;
+}
+.woman .card-head{
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.woman .card-body{
+    flex-grow: .7;
+}
+.card-footer{
+    background-color: #FFFFFF;
+    border: 0;
+}
+.man-card{
+    height: 72%;
+    width: 90%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.mans .card{
+    border-radius: 20px;
+}
+
+/* ============================ */
+        /*DESCRIPTION */
+/* ============================ */
+
+.box{
+    border-radius: 20px;
+}
+.box img{
+    width: 20%;
+}
+.about i{
+    color: #FABE4C;
+}
+.about .card-body p{
+    font-size: 13px;
+}
+.payment img{
+    width: 8%;
+}
+.contact input{
+    background-color: #F4F4F4;
+}
+.contact textarea{
+    background-color: #F4F4F4;
+}
+
+footer{
+    background-color: #f1f1f1;
+}
