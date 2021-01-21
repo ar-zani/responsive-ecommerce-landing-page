@@ -77,7 +77,7 @@ header{
 .woman-card{
     border-radius: 20px;
 }
-.woman .card-head{
+#woman .card-head{
     width: 90%;
     height: 50%;
     margin: 0 auto;
